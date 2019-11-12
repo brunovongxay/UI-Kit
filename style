@@ -1,0 +1,387 @@
+/************************/
+/* 	 WEBSITE COLORS     */
+/************************/
+
+.bg-nav {
+	background-color: #FFDDCC;
+}
+
+.text-nav {
+  color: #000000;	
+}
+
+/**************************/
+/* STICKY EYE FOR SIDENAV */
+/**************************/
+
+#sticky {
+  position: fixed;
+  top: 5%;
+  margin-left: 2.5%;
+  font-size: 25px;
+}
+
+/*************************/
+/*        SIDE NAV       */
+/*************************/
+
+.sidenav {
+  height: 100%;
+  width: 0; 
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  overflow-x: hidden; 
+  padding-top: 100px; 
+  transition: 0.3s; 
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.sidenav hr {
+  border-top: 1px solid #FFF;
+  border-bottom: 0px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 15px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+  cursor: url(tap.png), auto;
+}
+
+.sidenav a:hover {
+  color: #FFF8E7;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+body {
+  cursor: url(tap.png), auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  text-align:center;
+  position: relative;
+  bottom:20px;
+  width:100%;
+  display:inline-block;
+  vertical-align:top;
+}
+
+/************************/
+/* 	    COLORS           */
+/************************/
+
+.primary {
+	background-color: #293462;
+}
+
+.secondary {
+  background-color : #fbc1bc;
+}
+
+.dark {
+  color : #3c4245;
+}
+
+.medium-light {
+  color : #979797;
+}
+
+.light{
+  color : #EAEAEA;
+}
+
+.warning {
+  background-color: #f88020;
+}
+
+.danger {
+  background-color: #ff1f5a;
+}
+
+.success {
+  background-color: #a9eec2; 
+}
+
+.info {
+  background-color: #d3f6f3;
+}
+
+
+
+/************************/
+/* 	    FONTS           */
+/************************/
+
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size : 3em;
+}
+
+h2 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size : 2.5em;
+}
+
+h3 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size : 2.3em;
+}
+
+h4 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size : 2em;
+}
+
+h5 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size : 1.7em;
+}
+
+h6 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size : 1.5em;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color : #313335;
+}
+
+lead {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-weight: 700;
+}
+
+blockquote {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  font-style: italic;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  word-spacing: 5px;
+  font-weight: 200;
+}
+
+/************************/
+/* 	      BUTONS        */
+/************************/
+
+.button, input[type="submit"], input[type="reset"] {
+  background-color: none;
+  border: none;
+  color:inherit;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font: inherit;
+  outline: inherit;
+}
+
+.btn {
+  font-size: 1.1em; 
+  padding: 10px; 
+  border-radius: 7px; 
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500; 
+  text-decoration: none;
+  text-align: center; 
+  font-style: normal; 
+  font-variant: normal; 
+  text-transform: none; 
+  letter-spacing: 1.1px;
+  word-spacing: 5px;
+  outline: none;
+  cursor: url(tap.png), auto;
+}
+
+.btn:hover {
+  -webkit-filter: opacity(95%); 
+  filter: opacity(95%);
+}
+
+.btn-sm {
+  font-size: 0.9em; 
+  line-height: 14px; 
+  padding: 5px; 
+  border-radius: 5px; 
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 500; 
+  text-decoration: none; 
+  font-style: normal; 
+  font-variant: normal; 
+  text-transform: none; 
+}
+
+.btn-lg {
+  font-size: 2em; 
+  padding: 10px; 
+  border-radius: 9px; 
+  font-family: 'Quicksand', sans-serif; 
+  text-decoration: none; 
+  font-style: normal; 
+  font-variant: normal; 
+  text-transform: none; 
+}
+
+.btn-round {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 100%; 
+}
+
+.btn-primary-outline {
+  outline: 1px solid #000272;
+  color: #000272;
+}
+
+.btn-secondary-outline {
+  outline: 1px solid #fbc1bc;
+  color: #fbc1bc;
+}
+
+.btn-danger-outline {
+  outline: 1px solid #ff1f5a;
+  color: #ff1f5a;
+}
+
+.btn-warning-outline {
+  outline: 1px solid #f88020;
+  color: #f88020;
+}
+
+.btn-success-outline {
+  outline: 1px solid #a9eec2;
+  color: #a9eec2;   
+}
+
+.btn-default-outline {
+  outline: 1px none;
+  color: #373640;
+}
+
+.btn-rounded-pill {
+  padding: 20px;
+  border-radius: 25px;
+  color: #000000;
+  outline: black 1px;
+  
+}
+
+.animatedButton {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #293462;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: url(tap.png), auto;
+  margin: 5px;
+}
+
+.animatedButton span {
+  cursor: url(tap.png), auto;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.animatedButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.animatedButton:hover span {
+  padding-right: 25px;
+}
+
+.animatedButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/************************/
+/* 	      ICONS         */
+/************************/
+
+/************************/
+/* 	      FORMS         */
+/************************/
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #293462;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 7px;
+  cursor: url(tap.png), auto;
+}
+
+input[type=submit]:hover {
+  background-color: #293462;
+}
+
+/************************/
+/* 	      CARDS         */
+/************************/
+
+.card {
+  border-radius: 25px;
+  background: #a2a8d3;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  
+}
+
+/************************/
+/* 	      LISTS         */
+/************************/
+
+ul {
+  list-style-image: url('icon.png');
+}
